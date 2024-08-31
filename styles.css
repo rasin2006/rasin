@@ -1,0 +1,114 @@
+body{
+    background-color: #333;
+ }
+
+ #banner {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 206px;
+    position: absolute;
+    object-fit: cover;
+}
+.profile {
+    top: 130px;
+    left: 7%;
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: over;
+    border: 5px solid blue;
+
+}
+#myPicture{
+    position: absolute;
+    width: 270px;
+    height:400px;
+    left: 5%;
+    top: 230px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#myPicture:hover {
+    border-style: solid;
+}
+.button{
+    background-color: #94E3FE;
+    border: none;
+    position: fixed;
+    width: 15%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 16px;
+    top: 10px;
+    display: block;
+}
+#home {
+    left: 27%;
+}
+#aboutMe {
+    left: 43%;
+}
+#more {
+    left: 59%;
+}
+#photoIcon {
+    width: 40px;
+    height: 40px;
+    top: 256px;
+    left: 49%;
+    position: absolute;
+}
+#videoIcon {
+    width: 37px;
+    height: 37px;
+    top: 257px;
+    left: 43%;
+    position: absolute;
+}
+#collectionIcon {
+    width: 34px;
+    height: 37px;
+    top: 254px;
+    left: 55%;
+    position: absolute;
+}
+#container {
+    
+    position: absolute;
+    top: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.photo {
+    position: relative;
+    object-fit: cover;
+    width : 320px;
+    height: 200px;
+    left: 10%;
+    right: 15%;
+    top: 30px;
+}
+#video {
+    object-fit: cover;
+    width : 400px;
+    height: 250px;
+    position: absolute;
+}
+h1{
+    position: absolute;
+    color: #777;
+    top: 400px;
+    left: 36%;
+}
+.myInfo {
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 350px;
+}
+
